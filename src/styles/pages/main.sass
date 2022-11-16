@@ -1,0 +1,121 @@
+@use '../abstracts/_mixins' as c
+@keyframes moverFlecha
+    0% 
+        top:80px
+    100% 
+        top: 100px
+    
+
+#main
+    padding-top: 70px
+    background-color: var(--color-main-2)
+
+.skill
+    padding-top: 20px
+
+.grid-main
+    padding-top: 40px
+
+.div-plataformas
+    padding: 60px 0px
+    p
+        padding-top: 5px
+
+.div-main-icons
+    padding: 10px 0px
+    margin-top: 20px
+    border-top: 1px solid white
+    border-bottom: 1px solid white
+
+.div-icons
+    align-items: center
+    img
+        transition: all 0.3s ease-in
+        cursor: pointer
+        &:hover
+            transform: translate(6px)
+// 2 proyecto 
+.main-proyectos
+    padding-top: 20px
+    background-color: var(--header-color)
+    .main-section-1
+        article
+            padding-top: 60px
+            display: grid
+            grid-template-columns: 1fr 1fr
+            align-items: center
+            @include c.breakpoint(md)
+                display: block
+        #img-main
+            width: 250px
+            margin-top: 30px
+        .nube-div 
+            @include c.breakpoint(md)
+               display: flex 
+               justify-content: center
+               flex-wrap: wrap
+        #img-nube
+            display: block
+            width: 320px
+            height: auto
+            padding: 15px
+            margin-left: 120px
+            margin-right: 25px
+            transition: all 0.3s ease-out
+            border: 1px solid var(--color-extra)
+            border-radius: 20px
+            text-align: justify
+
+            @include c.breakpoint(sm)
+                    margin-left: 0px
+            &::after
+                content: ''
+                position: relative
+                width: 0
+                height: 0
+                top: 85px
+                left: -70px
+                border: 0 solid transparent
+                border-left-width: 30px
+                border-right-width: 30px
+                border-top: 30px solid var(--color-extra)
+                animation-name: moverFlecha
+                animation-duration: 2s
+                animation-timing-function: ease
+                animation-iteration-count: infinite
+                
+                @include c.breakpoint(md)
+                    margin-left: 90px
+                    margin-top: 40px
+
+                @include c.breakpoint(sm)
+                    display: none
+        .div-cartelera
+            gap: 20px
+            @include c.breakpoint(lg)
+                margin-top: 150px
+            @include c.breakpoint(md)
+               display: flex 
+               justify-content: center
+        .p-nube
+            padding-bottom: 3px
+            @include c.breakpoint(sm)
+                font-size: 14px
+
+// img cartelera    
+.img-cartelera
+    width: 220px
+    height: 90px
+    border-radius: 20px
+    background-color: white
+    display: flex
+    align-items: center
+    text-align: center
+    justify-content: center
+    transition: all 0.3s ease-in
+    
+    &:hover
+        background-color: var(--color-extra)
+        cursor: pointer
+    p a
+        color: black

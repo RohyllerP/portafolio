@@ -1,0 +1,29 @@
+@use '../../abstracts/_mixins' as c
+
+.agregar
+    padding: 5px
+    height: 5px
+    border-radius: 3px
+    background-color: var(--color-button)
+    @keyframes Aumentar
+        0% 
+            width: 0%
+        100% 
+            width: 100%
+       
+        animation: Aumentar 3s ease-in
+.progressOne
+    margin-top: 5px
+    margin-bottom: 10px
+    width: 100%
+    height: 10px
+    background-color: white
+    border-radius: 5px
+    .progressOne-content
+        padding: 5px
+        height: 5px
+        border-radius: 3px
+        background-color: var(--color-button)
+       
+        animation: Aumentar 3s ease-in
+            

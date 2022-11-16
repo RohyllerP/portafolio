@@ -1,0 +1,43 @@
+.agregar {
+  padding: 5px;
+  height: 5px;
+  border-radius: 3px;
+  background-color: var(--color-button);
+}
+@-webkit-keyframes Aumentar {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 100%;
+  }
+  -webkit-animation: Aumentar 3s ease-in;
+          animation: Aumentar 3s ease-in;
+}
+@keyframes Aumentar {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 100%;
+  }
+  -webkit-animation: Aumentar 3s ease-in;
+          animation: Aumentar 3s ease-in;
+}
+
+.progressOne {
+  margin-top: 5px;
+  margin-bottom: 10px;
+  width: 100%;
+  height: 10px;
+  background-color: white;
+  border-radius: 5px;
+}
+.progressOne .progressOne-content {
+  padding: 5px;
+  height: 5px;
+  border-radius: 3px;
+  background-color: var(--color-button);
+  -webkit-animation: Aumentar 3s ease-in;
+          animation: Aumentar 3s ease-in;
+}/*# sourceMappingURL=progress.css.map */
