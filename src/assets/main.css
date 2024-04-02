@@ -1,0 +1,30 @@
+@import './base.css';
+
+.botones-main {
+    display: flex;
+    gap: 20px;
+}
+
+.hidden-1 {
+    opacity: 0;
+    filter: blur(5px);
+    transition: all 1s;
+    transform: translateY(-500px);
+}
+.show-1 {
+    opacity: 1;
+    filter: blur(0);
+    transform: translateY(0px);
+}
+
+.hidden-2{
+    opacity: 0;
+    filter: blur(5px);
+    transition: all 1s;
+    transform: translateX(-50%);
+}
+.show-2{
+    opacity: 1;
+    filter: blur(0);
+    transform: translateX(0px);
+}
