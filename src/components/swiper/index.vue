@@ -165,17 +165,19 @@ function btnClose() {
   background-color: rgba(0, 0, 0, 0.6);
   z-index: 100;
   transition: all 0.3s ease;
+  height: 120vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow-y: auto;
 }
 
 .modal > div {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  width: 50%;
+  width: 60%;
   background-color: #fff;
   padding: 20px;
   border-radius: 10px;
+  position: absolute;
 }
 .modal .modal-header {
   padding: 10px 0px;
