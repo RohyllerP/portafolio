@@ -41,7 +41,6 @@ onMounted(() => {
     <section id="sec-texto">
       <div class="hidden-2">
       <article class="p-text">
-        
           <p>
             En esta sección de mi
             <span class="green-text">portafolio web</span>, quiero compartir

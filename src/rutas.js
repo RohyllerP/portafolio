@@ -1,5 +1,6 @@
 import { createRouter, createWebHistory } from 'vue-router';
 import Principal from '@/views/principal.vue';
+import Error404 from '@/views/404.vue';
 
 // definir routes 
 const routes = [
@@ -21,6 +22,9 @@ const routes = [
     {
         path: '/sobre', component: () => import('@/views/sobre/index.vue'),
         name: 'sobre'
+    },
+    {
+        path: '/:pathMatch(.*)*', component: Error404
     }
 ]
 
