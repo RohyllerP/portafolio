@@ -4,8 +4,8 @@ export const proyects = [
     title: 'PROYECTO DE GRADO',
     link: 'https://colegio.vercel.app/',
     text: 'Proyecto de grado de secundaria de una alternativa de solución para mejorar la calidad evaluativa online del docente de 5to A, En el Colegio María Santísima ',
-    logos: ['/src/assets/logos/react.png', '/src/assets/logos/firebase.png', '/src/assets/logos/chakra-ui.png'],
-    url: '/src/assets/proyects/colegio.png',
+    logos: ['public/logos/react.png', 'public/logos/firebase.png', 'public/logos/chakra-ui.png'],
+    url: '/proyects/colegio.png',
     alt: 'colegio'
   },
   {
@@ -13,8 +13,8 @@ export const proyects = [
     title: 'ANIMALIA',
     link: 'https://proyect-psi.vercel.app/',
     text: 'Sitio web para prensentar las mejores imagenes con su mejor calidad',
-    logos: ['/src/assets/logos/next.png', '/src/assets/logos/chakra-ui.png'],
-    url: '/src/assets/proyects/animale.png',
+    logos: ['public/logos/next.png', 'public/logos/chakra-ui.png'],
+    url: '/proyects/animale.png',
     alt: 'animales',
   },
   {
@@ -22,8 +22,8 @@ export const proyects = [
     title: 'CARTAS MARIO BROS',
     link: 'https://rohyllerp.github.io/cartas/',
     text: 'Sitio web para juego de cartas con tiempo y mejor tiempo incluido',
-    logos: ['/src/assets/logos/javascript.png', '/src/assets/logos/bootstrap.png', '/src/assets/logos/css.png', '/src/assets/logos/html-5.png'],
-    url: '/src/assets/proyects/cartas.png',
+    logos: ['public/logos/javascript.png', 'public/logos/bootstrap.png', 'public/logos/css.png', 'public/logos/html-5.png'],
+    url: '/proyects/cartas.png',
     alt: 'cartas',
   },
   {
@@ -31,10 +31,10 @@ export const proyects = [
     title: 'Almacen',
     link: 'http://gestor.myartsonline.com/',
     text: 'Mini sitio web con LOGIN, y vista para productos',
-    logos: ['/src/assets/logos/php.png', '/src/assets/logos/mysql.png',
-      '/src/assets/logos/javascript.png', '/src/assets/logos/bootstrap.png',
-      '/src/assets/logos/css.png', '/src/assets/logos/html-5.png'],
-    url: '/src/assets/proyects/almacen.png',
+    logos: ['public/logos/php.png', 'public/logos/mysql.png',
+      'public/logos/javascript.png', 'public/logos/bootstrap.png',
+      'public/logos/css.png', 'public/logos/html-5.png'],
+    url: '/proyects/almacen.png',
     alt: 'Almacen',
   },
   {
@@ -42,8 +42,8 @@ export const proyects = [
     title: 'NOTAS',
     link: 'https://rohyllerp.github.io/notas/',
     text: 'Sitio web de un ejemplo de "to-do list" donde podemos crear categorias y en esas categorias crear tareas, editar tareas, eliminar tareas y más. Todas estas se guardarán a pesar que cierres la ventana.',
-    logos: ['/src/assets/logos/html-5.png', '/src/assets/logos/bootstrap.png', '/src/assets/logos/jquery.png'],
-    url: '/src/assets/proyects/notas.png',
+    logos: ['public/logos/html-5.png', 'public/logos/bootstrap.png', 'public/logos/jquery.png'],
+    url: '/proyects/notas.png',
     alt: 'notas',
   },
   {
@@ -51,8 +51,8 @@ export const proyects = [
     title: 'CALCULADORA',
     link: 'https://rohyllerp.github.io/calculadora/',
     text: 'Sitio web responsive de ejemplo de una calculadora funcional, tiene además cambio de color en modo oscuro y modo claro.',
-    logos: ['/src/assets/logos/html-5.png', '/src/assets/logos/css.png', '/src/assets/logos/javascript.png'],
-    url: '/src/assets/proyects/calculadora.png',
+    logos: ['public/logos/html-5.png', 'public/logos/css.png', 'public/logos/javascript.png'],
+    url: '/proyects/calculadora.png',
     alt: 'calculadora',
   },
   {
@@ -60,8 +60,8 @@ export const proyects = [
     title: 'Calculadora de edad',
     link: 'https://rohyllerp.github.io/age-calculator/',
     text: 'Calculadora de edad referente a la fecha de nacimiento y a la fecha actual dando años que han transcurrido, meses y dias',
-    logos: ['/src/assets/logos/html-5.png', '/src/assets/logos/css.png', '/src/assets/logos/javascript.png'],
-    url: '/src/assets/proyects/age-calculator.png',
+    logos: ['public/logos/html-5.png', 'public/logos/css.png', 'public/logos/javascript.png'],
+    url: '/proyects/age-calculator.png',
     alt: 'age calculator',
   },
   {
@@ -69,8 +69,8 @@ export const proyects = [
     title: 'Tic tac toe',
     link: 'https://tic-tac-toe-rohyllerp.vercel.app/',
     text: 'EL juego famoso llamado Tic-tac-toe "la vieja" en algunos países',
-    logos: ['/src/assets/logos/html-5.png', '/src/assets/logos/css.png', '/src/assets/logos/vue.png'],
-    url: '/src/assets/proyects/tic-tac-toe.png',
+    logos: ['public/logos/html-5.png', 'public/logos/css.png', 'public/logos/vue.png'],
+    url: '/proyects/tic-tac-toe.png',
     alt: 'tic-tac-toe',
   },
   {
@@ -78,8 +78,8 @@ export const proyects = [
     title: 'Facebook view',
     link: 'https://rohyllerp.github.io/face-view/',
     text: 'Sitio web de una pagina de facebook probando e utilizando el framework de boostrap con sus componentes.',
-    logos: ['/src/assets/logos/html-5.png', '/src/assets/logos/bootstrap.png'],
-    url: '/src/assets/proyects/facebook-view.png',
+    logos: ['public/logos/html-5.png', 'public/logos/bootstrap.png'],
+    url: '/proyects/facebook-view.png',
     alt: 'face-view',
   },
   {
@@ -87,8 +87,8 @@ export const proyects = [
     title: 'Consumiendo api de CADIF1',
     link: 'https://rohyllerp.github.io/api-CADIF1/',
     text: 'Página web que consume una api de CADIF1 con FETCH.',
-    logos: ['/src/assets/logos/html-5.png', '/src/assets/logos/css.png', '/src/assets/logos/jquery.png'],
-    url: '/src/assets/proyects/api-cadif1.png',
+    logos: ['public/logos/html-5.png', 'public/logos/css.png', 'public/logos/jquery.png'],
+    url: '/proyects/api-cadif1.png',
     alt: 'api-cadif1',
   }
 ];
