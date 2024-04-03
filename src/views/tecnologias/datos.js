@@ -68,6 +68,11 @@ export const datos = [
         id: 14,
         name: 'sass',
         img: '/logos/sass.png'
+    },
+    {
+        id: 15,
+        name: 'chakra ui',
+        img: '/logos/chakra-ui.png'
     }
 ]
 export const otras = [
