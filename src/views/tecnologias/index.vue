@@ -121,6 +121,10 @@ onMounted(() => {
   padding-bottom: 50px;
   background-color: #181f2e;
 }
+.botones-main {
+    display: flex;
+    gap: 20px;
+}
 .div-cuadrado {
   display: flex;
   justify-content: space-between;

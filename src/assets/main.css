@@ -1,8 +1,7 @@
 @import './base.css';
 
-.botones-main {
-    display: flex;
-    gap: 20px;
+body{
+    background-color: #181f2e;
 }
 
 .hidden-1 {

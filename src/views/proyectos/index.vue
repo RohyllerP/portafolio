@@ -39,8 +39,9 @@ onMounted(() => {
       <h1 class="p-text">Proyectos</h1>
     </div>
     <section id="sec-texto">
+      <div class="hidden-2">
       <article class="p-text">
-        <div class="hidden-2">
+        
           <p>
             En esta sección de mi
             <span class="green-text">portafolio web</span>, quiero compartir
@@ -58,37 +59,37 @@ onMounted(() => {
             <li>Poner en practica mi creatividad.</li>
           </ul>
           <br />
-        </div>
+    
       </article>
-      <article class="hidden-2">
+      <article>
         <swiper />
       </article>
-      <article class="p-text">
-        <p>Al mostrar mis proyectos personales, espero que puedas:</p>
-        <ul style="padding-left: 18px">
-          <li>Conocer mejor mi trabajo</li>
-          <li>Apreciar mi creatividad</li>
-          <li>Comprender mi pasión:</li>
-        </ul>
-      </article>
-    </section>
-    <div class="botones-main p-text">
-      <boton2 :msg="mensaje2" :optionImg="false" />
-      <boton1 :msg="mensaje" />
     </div>
+      <div class="botones-main">
+        <boton2 :msg="mensaje2" :optionImg="false" />
+        <boton1 :msg="mensaje" />
+      </div>
+    </section>
     <div class="cursor" ref="cursor"></div>
   </div>
 </template> 
 
 <style scoped>
 #proyectos {
-  padding: 20vh 0px 15vh 0px; 
-  min-height: 100vh;
-  background-color: #181f2e;
+  padding-top: 20vh;
+}
+.botones-main {
+  display: flex;
+  gap: 20px;
+  padding-left: 30px;
+  padding-right: 30px;
 }
 .p-text {
   padding-left: 30px;
   padding-right: 30px;
+}
+#sec-texto{
+  padding-bottom: 50px;
 }
 #sec-texto article {
   line-height: 1.5em;
