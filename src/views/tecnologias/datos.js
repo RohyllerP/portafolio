@@ -42,7 +42,7 @@ export const datos = [
     {
         id: 9,
         name: 'Laravel',
-        img: '/logos/laravel.png'
+        img: '/logos/Laravel.png'
     },
     {
         id: 10,
