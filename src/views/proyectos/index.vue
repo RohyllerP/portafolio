@@ -82,9 +82,7 @@ onMounted(() => {
 
 <style scoped>
 #proyectos {
-  padding-top: 20vh;
-
-  padding-bottom: 30px;
+  padding: 20vh 0px 15vh 0px; 
   min-height: 100vh;
   background-color: #181f2e;
 }
