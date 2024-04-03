@@ -7,17 +7,15 @@ const navbarTodo = ref(null);
 const navbar2Todo = ref(null);
 const btnContacto = ref(null);
 const ul1 = ref(null);
+const aux = ref(true);
 onMounted(() => {
   navbar.value.onclick = () => {
-    if (
-      navbar.value.children[0].src ==
-      "http://localhost:5173/src/assets/img/menu.png"
-    ) {
-      navbar.value.children[0].src =
-        "http://localhost:5173/src/assets/img/cerrar.png";
+    if (aux.value) {
+      navbar.value.children[0].src = "/cerrar.png";
+      aux.value = false;
     } else {
-      navbar.value.children[0].src =
-        "http://localhost:5173/src/assets/img/menu.png";
+      aux.value = true;
+      navbar.value.children[0].src = "/menu.png";
     }
     navbarTodo.value.classList.toggle("navbar-completo");
     navbar2Todo.value.style.display == "none"
@@ -102,8 +100,11 @@ onMounted(() => {
           </li>
         </ul>
         <div>
-          <button class="btn-contacto shake" style="margin-top: 10px"
-          ref="btnContacto">
+          <button
+            class="btn-contacto shake"
+            style="margin-top: 10px"
+            ref="btnContacto"
+          >
             <RouterLink to="/formulario" style="text-decoration: none">
               Contáctame
             </RouterLink>
@@ -111,7 +112,7 @@ onMounted(() => {
         </div>
       </div>
       <div class="menu-btn" ref="navbar">
-        <img src="@/assets/img/menu.png" alt="menu" />
+        <img src="/menu.png" alt="menu" />
       </div>
     </nav>
     <nav class="navbar-2" style="display: none" ref="navbar2Todo">
