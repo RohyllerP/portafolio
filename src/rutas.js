@@ -17,11 +17,17 @@ const routes = [
     },
     {
         path: '/proyectos', component: () => import('@/views/proyectos/index.vue'),
-        name: 'proyectos'
+        name: 'proyectos',
+        beforeEnter: () => {
+            window.scrollTo(0, 0);
+        }
     },
     {
         path: '/sobre', component: () => import('@/views/sobre/index.vue'),
-        name: 'sobre'
+        name: 'sobre',
+        beforeEnter: () => {
+            window.scrollTo(0, 0);
+        }
     },
     {
         path: '/:pathMatch(.*)*', component: Error404

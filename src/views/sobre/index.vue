@@ -101,6 +101,37 @@ onMounted(() => {
           </p>
           <br />
           <p>
+            Estas habilidades las he desarollado de forma autodidacta y en las
+            siguientes academias de <span class="green">programación</span>.
+          </p>
+          <div class="carrusel-academias">
+            <div>
+              <a href="https://cadif1.com/" target="_blank">
+                <img src="/tecnologias/cadif1.svg" alt="cadif1" />
+              </a>
+            </div>
+            <div>
+              <a href="https://gracosoft.com/" target="_blank">
+                <img src="/tecnologias/gracosoft.png" alt="gracosoft" />
+              </a>
+            </div>
+            <div>
+              <a href="https://open-bootcamp.com/" target="_blank">
+                <img src="/tecnologias/Open-Bootcamp.png" alt="open-bootcamp" />
+              </a>
+            </div>
+            <div>
+              <a href="https://www.udemy.com/" target="_blank">
+                <img src="/tecnologias/Udemy.png" alt="udemy" />
+              </a>
+            </div>
+            <div>
+              <a href="https://youtube.com" target="_blank">
+                <img src="/tecnologias/Youtube.png" alt="youtube" />
+              </a>
+            </div>
+          </div>
+          <p>
             En esta sección, me complace mostrar mis certificados, que
             representan mi compromiso con la
             <span class="green">excelencia profesional</span> y el aprendizaje
@@ -109,16 +140,17 @@ onMounted(() => {
           </p>
         </section>
       </div>
+
       <div class="carrusel-link">
-          <div ref="flechaIzq">
-            <img src="@/assets/img/flecha-2-izq.png" alt="flecha" />
-          </div>
-          <div>
-            <a href="" ref="link" target="_blank">link</a>
-          </div>
-          <div ref="flechaDer">
-            <img src="@/assets/img/flecha-2-der.png" alt="flecha" />
-          </div>
+        <div ref="flechaIzq">
+          <img src="@/assets/img/flecha-2-izq.png" alt="flecha" />
+        </div>
+        <div>
+          <a href="" ref="link" target="_blank">link</a>
+        </div>
+        <div ref="flechaDer">
+          <img src="@/assets/img/flecha-2-der.png" alt="flecha" />
+        </div>
       </div>
       <section class="section-redes">
         <article>
@@ -235,7 +267,26 @@ onMounted(() => {
   border-radius: 50%;
   box-shadow: 0 0 20px #00825a, 0 0 60px #00825a, 0 0 100px #00825a;
 }
+.carrusel-academias {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+.carrusel-academias img {
+  width: 150px;
+  height: 150px;
+  object-fit: contain;
+  transition: all 0.3s ease-in;
+}
+.carrusel-academias img:hover {
+  transform: scale(1.05);
+}
 @media screen and (max-width: 768px) {
+  .carrusel-academias img {
+    width: 120px;
+  height: 120px;
+  }
   .cursor {
     display: none;
   }
@@ -263,6 +314,14 @@ onMounted(() => {
     font-size: 12.5px;
     position: relative;
     top: -2px;
+  }
+  .carrusel-academias {
+    align-items: center;
+    flex-direction: column;
+  }
+  .carrusel-academias img{
+    width: 100px;
+    height: 100px;
   }
 }
 </style>
