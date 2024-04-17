@@ -1,10 +1,10 @@
 export const datos = [
     {
-        "url": "https://drive.google.com/file/d/1L3spYoAHgAsfOqR9TPSQbCLFAC7hKy08/view?usp=sharing",
+        "url": "https://drive.google.com/file/d/1fwjCP1mKpQdxxAh7GVUU56lgq-ogEbct/view?usp=sharing",
         "text": "Fundamentos de programación"
     },
     {
-        "url": "https://drive.google.com/file/d/1We9AfM-W7cxC7hxzU9HajQr3PuViIjXJ/view?usp=sharing",
+        "url": "https://drive.google.com/file/d/12l9YegI8p2EBZjmcKw2KMJqcJhn5LI8v/view?usp=sharing",
         "text": "Frontend Junior"
     },
     {
@@ -12,7 +12,7 @@ export const datos = [
         "text": "Mysql 8.0"
     },
     {
-        "url": "https://drive.google.com/file/d/1JGw4Apzm2kSpZQkD6PWPkrzFdChbdUI-/view?usp=sharing",
+        "url": "https://drive.google.com/file/d/1c3F0vXG-QMnM_nGCWJCO8Z-IO34U5xlE/view?usp=sharing",
         "text": "Ingles B1"
     },
     {
@@ -20,11 +20,11 @@ export const datos = [
         "text": "PHP"
     },
     {
-        "url": "https://drive.google.com/file/d/1y5xyznAv3-kBOD7uzvlSa3BWo_g98VvO/view?usp=sharing",
+        "url": "https://drive.google.com/file/d/19pIeLeNql8Rh1qa0A46tDf5GlSqZsLmr/view?usp=sharing",
         "text": "MCV con C#"
     },
     {
-        "url": "https://drive.google.com/file/d/1CjXJzHPaAh9y-ekH-hYCiNsqZ1ba2n0T/view?usp=sharing",
+        "url": "https://drive.google.com/file/d/1P0t4M3TOl2IQgzGsgx-NpeHQJ8Nc6kgJ/view?usp=sharing",
         "text": "Taller con python"
     },
     {
@@ -36,7 +36,7 @@ export const datos = [
         "text": "Desarrollo web"
     },
     {
-        "url": "https://drive.google.com/file/d/1zD56YpkjO3YH14QAffmsnkn89_SeRyR6/view?usp=sharing",
+        "url": "https://drive.google.com/file/d/15aw2TUrT_iT-PbhahENVw3htJXz8xZlg/view?usp=sharing",
         "text": "Ingles A1"
     },
     {
@@ -48,7 +48,7 @@ export const datos = [
         "text": "Excel"
     },
     {
-        "url": "https://drive.google.com/file/d/1-fg0DPNoHALLCMQypTKPtOftakVQcDw-/view?usp=sharing",
+        "url": "https://drive.google.com/file/d/1U3dJ7ARxpYkGFrr7eTPKJVVAyxjp_9pp/view?usp=sharing",
         "text": "Curso de CHATGPT"
     }
 ];
