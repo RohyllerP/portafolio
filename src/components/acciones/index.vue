@@ -28,7 +28,7 @@ onMounted(() => {
       <div class="burbuja-blanca burbuja-tamano" 
       style="opacity: 0;visibility: hidden; transition: all 1.7s ease-in-out">
         <a
-          href="https://portafolio-theta-two.vercel.app/src/assets/pdf/cv-rohy-2.pdf"
+          href="https://portafolio-theta-two.vercel.app/cv-rohy-2.pdf"
           target="_blank"
         >
           <img src="@/assets/img/cv.png" alt="cv" />
