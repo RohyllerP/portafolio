@@ -6,7 +6,6 @@ const tecnologias = ref(null);
 const otrasTecnologias = ref(null);
 import navbarVue from "@/components/navbar/navbar-index.vue";
 import accionesVue from "@/components/acciones/index.vue";
-import carro from "@/components/carro/index.vue";
 import boton1Vue from "@/components/botones/boton1.vue";
 const mensaje = ref("proyectos");
 const mensaje2 = ref("/");
@@ -17,20 +16,33 @@ const app = ref(null);
 onMounted(() => {
   datos.forEach((element) => {
     const div = document.createElement("div");
+    const divTwo = document.createElement("div");
     const img = document.createElement("img");
+    const span = document.createElement("span");
     img.src = element.img;
     img.alt = element.name;
+    span.textContent = element.name;
+    divTwo.appendChild(span);
+    divTwo.classList.add("tooltip");
+    div.appendChild(divTwo);
     div.appendChild(img);
     div.classList.add("img-tecnologias");
     tecnologias.value.appendChild(div);
   });
   otras.forEach((element) => {
     const div = document.createElement("div");
+    const divTwo = document.createElement("div");
     const img = document.createElement("img");
+    const span = document.createElement("span");
     img.src = element.img;
     img.alt = element.name;
+    span.textContent = element.name;
+    divTwo.appendChild(span);
+    divTwo.classList.add("tooltip");
+    div.appendChild(divTwo);
     div.appendChild(img);
     div.classList.add("img-tecnologias");
+
     otrasTecnologias.value.appendChild(div);
   });
   // cursor
@@ -100,16 +112,33 @@ onMounted(() => {
 </template>
 <style>
 .img-tecnologias {
-  margin-top: 5px;
+  padding-top: 20px;
+  text-align: center;
+  transition: all 0.3s ease;
+}
+.img-tecnologias div{
+  transition: all 0.3s ease;
 }
 .img-tecnologias img {
   width: 40px;
   height: 40px;
   cursor: pointer;
   transition: all 0.3s ease-in;
+  margin-bottom: 15px;
+}
+.img-tecnologias:hover div{
+  visibility:visible;
+  transition: all 0.3s ease;
 }
 .img-tecnologias img:hover {
   transform: rotateY(-180deg);
+}
+/* tooltip */
+.tooltip {
+  visibility: hidden;
+  background-color: rgba(17, 24, 39, 0.8);
+  padding: 10px;
+  margin-top: -40px;
 }
 </style>
 <style scoped>
@@ -154,6 +183,7 @@ onMounted(() => {
   border-radius: 50%;
   box-shadow: 0 0 20px #00825a, 0 0 60px #00825a, 0 0 100px #00825a;
 }
+
 @media screen and (max-width: 768px) {
   .cursor {
     display: none;

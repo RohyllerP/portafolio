@@ -73,6 +73,16 @@ export const datos = [
         id: 15,
         name: 'chakra ui',
         img: '/logos/chakra-ui.png'
+    },
+    {
+        id: 16,
+        name: 'electron',
+        img: '/logos/electron.png'
+    },
+    {
+        id: 17,
+        name: 'node',
+        img: '/logos/node.png'
     }
 ]
 export const otras = [

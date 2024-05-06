@@ -179,6 +179,11 @@ onMounted(() => {
               <img src="@/assets/img/linkedin.png" alt="linkedin" />
             </a>
           </div>
+          <div>
+            <a href="https://github.com/RohyllerP" target="_blank">
+              <img src="@/assets/img/github.png" alt="github" />
+            </a>
+          </div>
         </article>
       </section>
       <div class="botones-main p-text" style="padding-top: 50px">
